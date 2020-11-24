@@ -23,7 +23,7 @@ if __name__ == "__main__":
                 _a, _b = _line.split("\t")
                 _episode = int(_a)
                 _scores.append(float(_b))
-    _n_games = _episode + 3000
+    _n_games = _episode + 5000
 
     _agent = Agent((8,), 4)
     if os.path.exists(_f_checkpoint):
